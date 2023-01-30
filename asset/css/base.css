@@ -1,0 +1,40 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color:#333;
+    --primery-color:#F9472C;
+
+    --header-height:120px;
+    --navbar-height: 34px;
+    --sortbar-height:40px;
+    --header-with-search-height: calc( var(--header-height) - var(--navbar-height) );
+}
+
+*{
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.btn {
+    width: 90px;
+    height: 34px;
+    color: #000;
+    background-color: white;
+    border: none;
+    outline: none;
+    font-size: 1.4rem;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.btn--active{
+    background-color: #EE4D2D;
+    color: var(--white-color);
+}
